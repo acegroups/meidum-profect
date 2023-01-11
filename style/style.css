@@ -73,6 +73,7 @@ a{
 
 .hero{
     position: relative;
+    height: 100%;
 }
 
 .hero_section{
@@ -132,13 +133,10 @@ a{
 
 }
 
-.line{
-    position: relative;
-}
-
 .line_svg{
     position: absolute;
     right: 0;
+    top:233px;
 }
 
 .circles{
@@ -146,20 +144,38 @@ a{
     width: 1240px;
     height: 452px;
     left: 105px;
-    top: 60px;
+    top: 118px;
     z-index: 4;
 }
 
 .third_circle{
     position: absolute;
     left: 503px;
-    top: 423px;
+    top: 484px;
     z-index: 5;
 }
 
 .speed{
     left: 449px;
-    top: 337px;
+    top: 397px;
     position: absolute;
     filter: drop-shadow(0px 10px 30px #E4EAFB);
+}
+
+.player{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 266px;
+}
+
+/* incestor */
+
+.investor{
+    max-width: 908px;
+    padding: 58px 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+    gap: 0 76.5px;
 }
